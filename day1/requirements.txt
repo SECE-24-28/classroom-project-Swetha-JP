@@ -1,0 +1,30 @@
+# Mobile Recharge Application - Requirements
+
+## Project Overview
+A comprehensive mobile recharge web application with login, registration, and recharge functionality.
+
+## Features Required
+1. User Authentication (Login/Register)
+2. Mobile Recharge Plans (Top-up, Data, Combo)
+3. Payment Processing
+4. Responsive Design
+5. Mock API Integration
+
+## Technologies
+- HTML5
+- CSS3 (Tailwind CSS)
+- JavaScript (ES6+)
+- Mock API for backend simulation
+
+## Pages
+1. Login Page (index.html)
+2. Registration Page (register.html)
+3. Landing Page (recharge.html)
+4. Plans Page (plans.html)
+
+## API Endpoints
+- POST /login - User authentication
+- POST /register - User registration
+- GET /plans - Fetch recharge plans
+- POST /recharge - Process recharge transaction
+- GET /transactions - Get transaction history
